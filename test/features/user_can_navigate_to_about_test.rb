@@ -5,7 +5,6 @@ class LinkTest < CapybaraTestCase
     visit '/'
     click_on "About"
 
-    save_and_open_page
     assert_equal 200, page.status_code
     assert_equal '/about', current_path
     assert page.has_content?("About Me!")
