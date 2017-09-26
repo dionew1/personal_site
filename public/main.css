@@ -1,3 +1,63 @@
 body {
   background-color: lightblue;
 }
+
+h1 {
+  color: black;
+  font-family: georgia;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: 0px 2px #F9F4F4;
+
+}
+a {
+  color: gray;
+  font-family: cursive;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: blue;
+  text-shadow: 0.5px 0.5px blue;
+}
+
+a:visited {
+  color: gray;
+  font-family: cursive;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration-style: dotted;
+}
+
+h2 {
+  color: black;
+  font-family: georgia;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 0px 1px #F9F4F4;
+}
+
+h3 {
+  color: black;
+  font-family: georgia;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 0px 1px white;
+}
+
+p {
+  font-family: cursive;
+  font-size: 15px;
+  text-align: center;
+}
+
+div.blog p{
+  font-family: cursive;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 0.5px 1px blue;
+}
