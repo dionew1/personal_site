@@ -11,6 +11,9 @@ class PersonalSite
     end
   end
 
+  def self.file_exists_in_public?(PATH_INFO)
+    if PATH_INFO ==
+
   def self.index
     render_view('index.html')
   end

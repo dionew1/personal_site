@@ -28,10 +28,6 @@ a:visited {
   text-decoration: none;
 }
 
-a:active {
-  text-decoration-style: dotted;
-}
-
 h2 {
   color: black;
   font-family: georgia;
